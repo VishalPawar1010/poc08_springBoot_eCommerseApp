@@ -1,7 +1,7 @@
-var app = angular.module('userregistrationsystem', ['ngRoute', 'ngResource']);
+var app = angular.module('eNamApp', ['ngRoute', 'ngResource']);
 app.config(['$routeProvider',function($routeProvider) {
     $routeProvider
-    .when('/list-all-users', {
+    .when('/users', {
         templateUrl : 'template/listuser.html',
         controller : 'listUserController'
     }).when('/register-new-user',{
