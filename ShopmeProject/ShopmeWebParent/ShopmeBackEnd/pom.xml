@@ -36,12 +36,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-	 <dependency>
-	  <groupId>com.shopme</groupId>
-	  <artifactId>ShopmeCommon</artifactId>
-	  <version>0.0.1-SNAPSHOT</version>
-	  <type>jar</type>
-	 </dependency>
+		<dependency>
+			<groupId>com.shopme</groupId>
+			<artifactId>ShopmeCommon</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>
