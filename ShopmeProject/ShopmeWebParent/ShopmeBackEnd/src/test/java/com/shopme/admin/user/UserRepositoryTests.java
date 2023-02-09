@@ -75,6 +75,23 @@ public class UserRepositoryTests {
 
 		assertThat(userVP).isNotNull();
 	}
+	@Test
+	public void testUpdateRoleDetails() {
+		User userDS = userRepo.findById(2).get();
+		Role roleEditor = new Role(3);
+//		Role roleSales = new Role(2);
+
+		// bug - remove not working
+		userDS.getRoles().remove(roleEditor);
+//		userDS.addRole(roleSales);
+		userRepo.save(userDS);
+
+	}
+	@Test
+	public void testDeleteUser() {
+		Integer id = 2;
+		userRepo.deleteById(id);
+	}
 	
 	
 
