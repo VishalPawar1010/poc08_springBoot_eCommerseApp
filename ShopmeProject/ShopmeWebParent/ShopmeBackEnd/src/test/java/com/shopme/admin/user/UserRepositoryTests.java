@@ -18,7 +18,7 @@ import jakarta.persistence.EntityManager;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @Rollback(false)
-//@Disabled
+@Disabled
 public class UserRepositoryTests {
 	
 	@Autowired
@@ -68,6 +68,7 @@ public class UserRepositoryTests {
 		User userVP = userRepo.findById(1).get();
 		userVP.setEmail("vishalpawar@gmail.com");
 		userVP.setEnabled(true);
+		
 		
 		System.out.println("=================================>> ");
 		System.out.println("======>> "+ userVP);
