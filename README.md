@@ -5,7 +5,7 @@ SpringBoot ecommerse shopping App
 ## Udemy Source Code
 
 1. Intsrtuctor github - https://github.com/namhaminh/namhaminh
-2. source code -
+2. Technical doc - https://docs.google.com/document/d/1TwAzORk0zXPHDBF-pZn7B8j8sxmnFxUZ/edit?usp=sharing&ouid=107390576361473943494&rtpof=true&sd=true
 
 ### Spring Boot E-Commerce Ultimate Course -
 
